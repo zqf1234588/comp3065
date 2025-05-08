@@ -39,13 +39,5 @@ Panorama/
 -  **Super-Resolution via Real-ESRGAN**  
   GitHub: [xinntao/Real-ESRGAN - inference script](https://github.com/xinntao/Real-ESRGAN/blob/master/inference_realesrgan.py)
 
-##  Usage
 
-1. **Run `step1.py`**  
-   - Extracts frames from input videos  
-   - Applies Real-ESRGAN to enhance resolution
-
-2. **Run `step2.py`**  
-   - Matches keypoints(features) between frames  
-   - Generates panorama images from enhanced frames
 
