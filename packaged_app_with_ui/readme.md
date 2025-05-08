@@ -14,13 +14,19 @@ The application consists of three main components:
 
 To start the application:
 
-**This application can only run in a Linux environment due to backend code limitations.**
+**The linux system is more stable because this project is developed based on the linux system**
+**For linux**
+Users may need to using pip install with Linux-requirement.txt
+
+**For windows**
+Users may need to using pip install with windows-requirement.txt
 
 ```bash
 python app.py
 ```
 
 Once launched, the terminal will display a local access URL (usually http://127.0.0.1:7860). Open this address in your browser to use the application.
+
 
 ## About Model Weights
 
@@ -154,7 +160,8 @@ A typical workflow example:
 7. Choose homography as the transformation model.
 8. Click “Process Video.”
 9. Wait for processing and download the result.
-
+![image](image1.png)
+![image](image2.png)
 ## File Structure
 ```bash
 |-- Panorama                                    # Transferred files
