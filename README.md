@@ -5,21 +5,11 @@ This project processes video frames and generates high-quality panorama images u
 ## 📁 Project Structure
 
 Panorama/
-├── enhanced_frames/ # Output folder: super-resolved frames using Real-ESRGAN
-
 ├── frames(normal)/ # Frame images extracted from video 1
 
 ├── frames(slightlyblurry)/ # Frame images extracted from video 2
 
 ├── frames(veryblurry)/ # Frame images extracted from video 3
-
-├── Real-ESRGAN/ # Real-ESRGAN model and source code
-
-├── stitching/ # Panorama stitching utility library
-
-├── weights/ # Super-resolution model weights
-
-├── matches_graph.dot # Keypoint matching graph
 
 ├── panorama_result(normal).jpg # Panorama result from video 1
 
@@ -27,15 +17,15 @@ Panorama/
 
 ├── panorama_result(veryblurry).jpg # Panorama result from video 3
 
-├── step1.py # Extract frames and apply super-resolution
+├── test_input1(normal).mp4 # Input video 1
 
-├── step2.py # Stitch images into panoramas
+├── test_input2(slightlyblurry).mp4 # Input video 2
 
-├── test1(normal).mp4 # Input video 1
+├── test_input3(veryblurry).mp4 # Input video 3
 
-├── test2(slightlyblurry).mp4 # Input video 2
+├── packaged_app_with_ui #This folder provides a fully packaged and user-friendly version of the application, with core functionalities wrapped in callable interfaces and integrated with a graphical user interface (UI).
 
-├── test3(veryblurry).mp4 # Input video 3
+├── packaged_app_with_ui #This folder provides a fully packaged and user-friendly version of the application, with core functionalities wrapped in callable interfaces and integrated with a graphical user interface (UI).
 
 ├── README.md # documentation of project structure
 
